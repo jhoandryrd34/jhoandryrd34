@@ -1,5 +1,5 @@
 graph TD;
-    A[Abrir página de notas] -->|GET| B(HTML document)
+    A[Abrir página de notas] -->|GET| B(https://studies.cs.helsinki.fi/exampleapp/main.js)
     B -->|GET| C{main.css}
     C -->|GET| D{main.js}
     D -->|Ejecución| E{Fetch JSON data}
